@@ -1,0 +1,293 @@
+@media (min-width:320px) and (max-width:576px){
+
+.navButton {   
+    padding: 7px 9px; 
+    font-size:16px;  
+}
+#banner .text_area a { 
+    padding: 6px 12px;  
+}
+nav ul li {
+    margin-left: 12px;
+}
+.navbar-toggler{
+    border:none;
+}
+nav ul{
+    margin-top: 40px !important;
+}
+.navBarlink {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #1C1E53;
+}
+#banner .text_area h4 {
+    font-size: 13px;
+}
+#banner .text_area h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+#banner .text_area p {
+    font-size: 13px;   
+    margin-top: 20px;
+}
+#banner .text_area a {
+    font-size: 11px;
+    margin-top: 7px;   
+}
+.heroImg{
+    width:100%;
+    margin-top: 30px;
+}
+#banner {
+    padding-top: 50px;  
+    padding-bottom: 60px;
+}
+#skill {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+#skill .title h4 {
+    font-size: 12px;
+    margin-top: 50px;
+}
+#skill .title h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+.card-title {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.card-text {
+    font-size: 13px;
+    margin-top: 14px;
+}
+.skill_item {
+    padding: 20px;
+    margin-top: 12px; 
+}
+#about img {
+    width: 265px;
+    height: 265px;
+    margin-top: 0px;
+}
+#about {
+    padding-top: 12px;
+    margin-bottom: 30px;
+}
+#about .main h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+#about .main h4 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120%;
+}
+#about .main p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 120%;
+    margin-top: 12px;
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 350px;
+    max-width: 300px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 20px;
+}
+#about .main {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#about .main p {
+    margin-top: 8px;
+}
+
+#about .main h2 {
+    font-size: 23px;
+}
+#success .title h4 {
+    font-size: 12px;
+}
+.success_item {
+    margin-top: 15px;
+}
+#success .title h2 {
+    font-size: 25px;
+    margin-top: 15px;
+}
+#success .sideBox {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+.sideBox img {
+    width: 11px;
+    height: 14px;
+    margin-left:3px;
+    margin-top:11px;
+}
+.sideBox a {
+    font-size: 10px;
+    margin-top:7px;
+    margin-left:1px;
+}
+.row>* {
+    flex-shrink: 4;
+}
+.success-img img {
+    width: 252px;
+    height: 252px;
+}
+.card_info h2 {
+    /* padding-top: 32px; */
+    font-size: 20px;
+}
+
+.card_info p {
+    font-size: 13px;
+    line-height: 100%; 
+}
+
+.card_info {
+    width: 252px;
+    height: 166px;
+    padding: 8px;
+}
+.icon_set h5 {
+    font-size: 13px;
+    line-height: 140%;
+}
+.icon_set img {
+    width: 12px;
+    height: 13px;
+    margin-left: 4px;
+    margin-top: 2px;
+}
+.icon_set {
+    width: 110px;
+    height: 21px; 
+}
+#feedback .title {
+    padding-top: 12px;
+}
+#feedback .title h5 {
+    font-size: 12px;
+    line-height: 100%;
+}
+#feedback .title h2 {
+    font-size: 23px;
+    line-height: 100%;
+    margin-top: 15px;
+}
+#feedback .stars{
+    width: 50px;
+    height: 10px;
+}
+
+.feedback1 p {
+    width: 240px;
+    height: 60px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #1C1E53;
+    margin-top: 12px;
+}
+#feedback .feedback1 {
+    width: 250px;
+    height: 200px;
+    margin-top: 6px;
+    padding: 5px;
+}
+#feedback .client{
+    width:50px;
+    height:50px;
+}
+.name_facts h3 {
+    font-size: 12px;
+    line-height: 16px;
+}
+.name_facts h5 {
+    font-size: 11px;
+    line-height: 12px; 
+}
+.remarks {
+    width: 255px;
+    height: 70px;
+    margin-top: 30px;
+    gap: 12px;
+}
+#feedback {
+    margin-top: 149px;
+    padding-bottom: 36px;
+}
+#contact {
+    padding-top: 30px;
+    margin-bottom: 15px;
+}
+.contact_title h4 {
+    font-size: 13px;
+    line-height: 130%;
+    margin-bottom: 12px;
+}
+.contact_title h2 {
+    font-size: 23px;
+    margin-bottom: 13px;
+}
+.contact_title p {
+    font-size: 14px;
+    line-height: 120%;
+    margin-bottom:0px;
+}
+#contact label {
+    font-size: 13px;
+    line-height: 120%;
+}
+#contact input {
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 6px;
+}
+.topic-choose {
+    font-size: 12px;
+    line-height: 120%;
+}
+#contact select {
+    height: 36px;
+    margin-top: 7px;
+}
+#contact button {
+    margin-top: 12px;
+    width: 70px;
+    height: 35px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 120%;
+    border-radius: 5px;
+    border: 1px solid  transparent;
+}
+#contact label {
+    font-size: 13px;
+    line-height: 100%;
+}
+#footer {
+    padding-top: 30px;
+    height: 255px;
+}
+
+
+
+
+
+
+}

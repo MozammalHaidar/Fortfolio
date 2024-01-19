@@ -1,0 +1,537 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/*=========== navbar start========= */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width:1746px;
+    margin:0 auto;
+}
+nav{
+    box-shadow:0px 5.333px 80px 0px rgba(0, 0, 0, 0.10);
+    padding:25px 0px !important;
+    background: #FFFFFF;
+}
+.navlogo{
+    width:186px;
+    height:40px;
+}
+.navBarlink{
+    font-size:21px;
+    font-weight:400;
+    line-height:150%;
+    color:#1C1E53;
+}
+.navBarlink:hover{
+    color:#5E3BEE;
+}
+nav ul li{
+    margin-left:42px;
+}
+/* .active{
+    color:#5E3BEE !important;
+} */
+.navButton{
+    border:none;
+    background: transparent;
+    padding:18px 30px;
+    border: 1px solid #5E3BEE;
+    border-radius: 5px;
+    color:#5E3BEE;
+    font-size:21px;
+    font-weight:400;
+    line-height:150%;
+    transition:0.4s;
+}
+.navButton:hover{
+    background: #5E3BEE;
+    color:#FFFFFF;
+}
+/*=========== navbar end========= */
+
+/*=========== banner start======== */
+#banner{
+    background:#F5FCFF;
+    padding-top: 119px;
+    padding-bottom: 133px;
+}
+#banner .text_area h4{
+    font-size:21px;
+    font-weight:600;
+    line-height:150%;
+    color:#282938;
+}
+#banner .text_area h1{
+    font-size:74px;
+    font-weight:700;
+    line-height:120%;
+    color:#282938;
+    margin-top:21px;
+}
+#banner .text_area span{
+    color:#5E3BEE;
+}
+#banner .text_area p{
+    font-size:24px;
+    font-weight:400;
+    line-height:150%;
+    color:#1C1E53;
+    margin-top:21px;
+}
+#banner .text_area a{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #FFFFFF;
+    background: #5E3BEE;
+    text-decoration: none;
+    padding: 18px 25px;
+    border-radius: 5px;
+    margin-top: 53px;
+    display: inline-block;
+    border: 1px solid transparent;
+    transition: 0.4s;
+}
+#banner .text_area a:hover{
+    background: transparent;
+    color:#5E3BEE;
+    border:1px solid #5E3BEE;
+}
+/*=========== banner end======== */
+
+/*=========== skill start======== */
+#skill{
+    margin-top: 148px;
+    /* margin-bottom: 100px; */
+}
+#skill .title h4{
+    font-size:21px;
+    font-weight:600;
+    line-height:150%;
+    color:#282938;
+    margin-top:149px;
+}
+#skill .title h2{
+    font-size:64px;
+    font-weight:700;
+    line-height:120%;
+    color:#282938;
+    margin-top:21px;
+}
+.skillimg{
+    width:80px;
+    height:80px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.10);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+}
+.skillimg img{
+    width:53px;
+}
+.skill_item{
+    background:#F5FCFF;
+    padding:32px;
+    margin-top:106px;
+    border-radius:10px;
+    border-bottom:4px solid transparent;
+}
+.skill_item:hover{
+    border-bottom:4px solid #5E3BEE;
+}
+.card-title{
+    font-size:32px;
+    font-weight:700;
+    line-height:140%;
+    color:#282938;
+    margin-top:32px;
+}
+.card-text{
+    font-size:21px;
+    font-weight:400;
+    line-height:150%;
+    color:#1C1E53;
+    margin-top:21px;
+}
+/*=========== skill end ========== */
+
+/* =============about start======= */
+/* #about{
+    padding-top: 133px;
+    margin-bottom: 133px;
+} */
+#about img{
+    width:813px;
+    height: 996px;
+    margin-top: 133px;
+}
+#about .main{
+    margin-top: 430px;
+    margin-left: 114px;
+}
+#about .main h4{
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 150%;
+    color:#282938;
+}
+#about .main h2{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 120%;
+    color:#282938;
+    margin-top: 10px;
+}
+#about .main p{
+    font-size:24px;
+    font-weight:400;
+    line-height:150%;
+    color:#1C1E53;
+    margin-top:32px;
+}
+/* =============about end========== */
+
+/*=========== recent project start========= */
+#success{
+    margin-top: 149px;
+    margin-bottom: 149px;
+}
+#success .title h4{
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 150%;
+    color:#282938;
+}
+#success .title h2{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 120%;
+    color:#282938;
+    margin-top: 21px;
+}
+#success .sideBox{ 
+    width:252px;
+    height: 75px;
+    background: #E62872;
+    border-radius: 10px;
+} 
+.sideBox img{
+    width:32px;
+    height:32px;
+    margin-left: 21px;
+    /* margin-top:21px; */
+    line-height: 32px;
+    /* transform: translateY(-50%); */
+}
+.sideBox a{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 21px;
+    margin-left: 10px;
+    background: #E62872;
+    color:#FFFFFF;
+    text-decoration: none;
+    display:inline-block;
+}
+.success_item{
+  margin-top: 106px;
+}
+#success .success2{  
+    display:flex;
+    top:0;
+    left:0;
+    justify-content: space-between;
+}
+.success-img img{
+    width:554px;
+    height:400px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.10);
+}
+.card_info{
+    width:555px;
+    height:254px;
+    padding: 32px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.10);
+}
+.card_info h2{
+    /* padding-top: 32px; */
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 140%;
+    color:#282938;
+}
+.card_info p{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 150%;
+    color:#1C1E53;
+}
+.card_info a{
+    color:#1C1E53;
+}
+.icon_set{
+    width:159px;
+    height:28px;
+    /* margin-top: 32px; */
+    display:flex;
+    top:0;
+    left:0;
+    color:#1C1E53;
+    border-bottom: 2px solid #1C1E53;
+}
+.icon_set h5{
+    font-size: 18px;
+    font-weight: 600px;
+    line-height: 150%;
+    color:#000000;
+}
+.icon_set img{
+    width:16px;
+    height:16px;
+    margin-left:10px;
+    margin-top:6px;
+}
+/*==========recent project end =========*/
+
+/*=========== feedback start ========== */
+#feedback{
+    background: #F5FCFF;
+    margin-top: 149px;
+    padding-bottom: 149px;
+}
+#feedback .title{
+    padding-top: 149px;
+}
+#feedback .title h5{
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 150%;
+    color:#282938;
+}
+#feedback .title h2{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 120%;
+    color:#282938;
+    margin-top: 21px;
+}
+#feedback .feedback1{
+    width:554px;
+    height:366px;
+    margin-top: 106px;
+    padding: 32px;
+    border:1px solid #5E3BEE;
+    border-radius: 8px;
+}
+#feedback .stars{
+    width:154px;
+    height:25px;
+}
+.feedback1 p{
+    width:469px;
+    height:96px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 150%;
+    color:#1C1E53;
+    margin-top: 42px;
+}
+.remarks{
+    display:flex;
+    width:238px;
+    height:75px;
+    margin-top: 42px;
+    gap:21px;
+}
+#feedback .client {
+    width:74px;
+    height:74px;
+}
+.name_facts {
+    margin-top: 5px;
+    width:142px;
+    height: 32px;
+}
+.name_facts h3{
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   color:#282938;
+}
+.name_facts h5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#1C1E53;
+ }
+/*=========== feedback end ========== */
+
+/*=========== contact start ========== */
+#contact{
+    padding-top: 149px;
+    margin-bottom: 149px;
+}
+.contact_title{
+    text-align: center;
+}
+.contact_title h4{
+    font-size:21px;
+    font-weight:400;
+    line-height:150%;
+    color:#1C1E53;
+    margin-bottom: 21px;
+}
+.contact_title h2{
+    font-size:64px;
+    font-weight:700;
+    line-height:120%;
+    color:#282938;
+    margin-bottom: 21px;
+}
+.contact_title p{
+    font-size:24px;
+    font-weight:400;
+    line-height:150%;
+    color:#1C1E53;
+    margin-bottom: 64px;
+}
+#contact label{
+    font-size:21px;
+    font-weight:400;
+    line-height:150%;
+    color:#1C1E53;
+}
+#contact input{
+    width:100%;
+    height: 64px;
+    border-color: #5E3BEE;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+#contact .email_box{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+#contact select{
+    height: 64px;
+    margin-top: 10px;
+    border-color: #5E3BEE;
+}
+.msgbox{
+    margin-top: 32px;
+    font-size: 21px;
+    font-weight: 400;
+    color:#1C1E53;
+    line-height: 150%;
+}
+#contact .msgbox textarea{
+    width:100%;
+    border-color: #5E3BEE;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.topic-choose{
+    font-size: 21px;
+    font-weight: 400;
+    color:#1C1E53;
+    line-height: 150%;
+}
+#contact .terms{
+    margin-left: 0px;
+    width:195px;
+    height:28px;
+    display:flex;
+    top:0;
+    left:0;
+    gap:10px;
+}
+#contact .checking{
+    margin-left: 0px;
+    height:28px;
+    width:28px;     
+}
+#contact .form-check{
+    padding-left: 0px;
+}
+#contact .terms label{
+  margin-top:10px;
+  width:200px 
+}
+#contact .container1{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+}
+#contact button{
+    margin-top:32px;
+    width:170px;
+    height: 69px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 150%;
+    background: #5E3BEE;
+    color:#FFFFFF;
+    border-radius: 8px;  
+    border:1px solid  transparent; 
+}
+#contact button:hover{
+    background: #FFFFFF;
+    color:#5E3BEE;
+    border:1px solid #5E3BEE
+}
+/*=========== contact end ========== */
+
+/*=========== footer start ========== */
+#footer{
+    background:#F5FCFF;
+    padding-top: 106px;
+    /* padding-bottom: 106px; */
+    height:432px;
+}
+.footer_top{  
+    padding-bottom: 106px; 
+}
+.footer_items{
+    height: 40px;
+    display:flex;
+    justify-content: space-between;  
+}
+.footer_items ul li{
+    display: inline-block;
+    margin-left: 42px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 150%;
+    color:#000000;
+}
+.footer_icon{
+    display:inline-block;
+    margin-left: 16px;
+}
+.footer_bottom{
+    /* margin-top: 106px; */
+    border-top: 2px solid #000000;
+}
+.last_part{
+    height:72px;
+    padding-top: 43px;
+    display:flex;
+    top:0;
+    left:0;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color:#000000;
+}
+.last_part ul li{
+    display:inline-block;
+    margin-left: 32px;
+}
+/*=========== footer end ========== */
