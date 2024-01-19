@@ -284,10 +284,25 @@ nav ul{
     padding-top: 30px;
     height: 255px;
 }
-
-
-
-
-
+.footer_logo {
+    width: 50px;
+    height: 14px;
+}
+.footer_items ul li {
+    display: inline-block;
+    margin-left: 6px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+}
+.last_part h4{
+    height: 20px;
+    width: 55px;
+    font-size: 12px;
+}
+.last_part ul li{
+    font-size: 13px;
+}
 
 }
